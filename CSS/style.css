@@ -1,0 +1,380 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'bebas neue';
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0);
+    align-items: center;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99;
+}
+
+.nav-link ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-link li a:hover{
+    color: #b8df10;
+}
+
+.nav-link li a{
+    transition-duration: 300ms;
+}
+.nav-link ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #390878;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.logo h1{
+    color: white;
+    text-transform: uppercase;  
+    font-size: 40px;
+}
+
+.logo span{
+    color: #390878;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    position: relative;
+    
+}
+
+.img video{
+    position: absolute;
+    top: 0;
+    left: 0     ;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.home h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.im{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 50px;
+}
+.im span{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+
+.wk{
+    color: whitesmoke;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.content a{
+    text-decoration: none;
+    color:#b8df10;
+    width: 20px;
+    height: auto;
+    background-color: #390878a9;
+    padding: 15px;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.content a:hover{
+    color: #390878;
+    background-color: #b8df10a9;
+}
+
+.content{
+    text-align: center;
+    width: 50%;
+    z-index: 9999;
+}
+
+.home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.386);
+    z-index: 2;
+}
+
+.card1{
+margin-left: 350px;
+margin-top: 50PX;
+}
+
+.nt{
+    margin-top: 10px;
+    margin-left: 670px;
+    letter-spacing: 10px;
+}
+
+.garis{
+    width: 100px;
+    height: 5px;
+    background-color: #b8df10;
+    border-radius: 5px;
+    margin-left: 715px;
+    margin-top: 10px;
+    border: 2px solid #390878;
+}
+
+.atas{
+    width: 315px;
+    height: 250px;
+    background-image: url(/foto/pang-yuhao-EjvaknMYDDs-unsplash.jpg);
+    background-size: cover;
+    background-position: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bawah{
+    width: 315px;
+    height: 240px;
+    background-color: whitesmoke;
+}
+
+.bawah h1{
+    margin-left: 80px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.bawah p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah a{
+    text-decoration: none;
+    color: #390878;
+    width: auto;
+    background-color: #b8df10a9;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 115px;
+    transition-duration: 300ms;
+}
+.bawah a:hover{
+color: #b8df10;
+background-color:#390878;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2{
+margin-right: 350px;
+margin-top: 50px;
+}
+ 
+.atas1{
+    width: 315px;
+    height: 250px;
+    background-image: url(/foto/filiz-elaerts-J_C3_JpJMms-unsplash.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bawah1{
+    width: 315px;
+    height: 240px;
+    background-color: whitesmoke;
+}
+
+.bawah1 h1{
+    margin-left: 111px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.bawah1 p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah1 a{
+    text-decoration: none;
+    color: #390878;
+    width: auto;
+    background-color: #b8df10a9;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 115px;
+    transition-duration: 300ms;
+}
+
+.bawah1 a:hover{
+    color: #b8df10;
+    background-color:#390878;
+}
+
+.gambar{
+    width: 100%;
+    height: 350px;
+    background-image: url(/foto/pexels-belle-co-99483-402028.jpg);
+    background-size: cover;
+    background-position: 0;
+    padding: 20px;
+    margin-top: 50px;
+   
+
+}
+
+.perkenalan{
+    color: white;
+    text-align: start;   
+}
+
+.ok{
+    margin-top: 85px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    
+}
+
+.garis2{
+    width: 100px;
+    height: 5px;
+    background-color: #390878;
+    margin-left: 23px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #b8df10;
+}
+
+.perkenalan a{
+    text-decoration: none;
+    color: #390878;
+    width: auto;
+    background-color: #b8df10a9;
+    padding: 7px;
+    border-radius: 5px;
+    transition-duration: 300ms;
+    margin-left: 100px;
+}
+
+.perkenalan a:hover{
+    color: #b8df10;
+    background-color:#390878;
+}
+
+.merk{
+    text-align: center;
+}
+
+.quick ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.quick li a:hover{
+    color: #390878;
+    background-color: #b8df10;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.quick li a{
+    transition-duration: 300ms;
+}
+.quick ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #b8df10;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.quick{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    
+    background-color: #390878;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.garisf{
+    border-top: 1px solid #b8df10;
+    margin-top: 10px;
+}
+
+.cr{
+    color: #b8df10;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
