@@ -219,7 +219,7 @@ margin-top: 50px;
 .atas1{
     width: 315px;
     height: 250px;
-    background-image: url(/foto/filiz-elaerts-J_C3_JpJMms-unsplash.jpg);
+    background-image: url(foto/filiz-elaerts-J_C3_JpJMms-unsplash.jpg);
     background-size: cover;
     border-radius: 10px 10px 0px 0px;
 }
@@ -262,7 +262,7 @@ margin-top: 50px;
 .gambar{
     width: 100%;
     height: 350px;
-    background-image: url(/foto/pexels-belle-co-99483-402028.jpg);
+    background-image: url(foto/pexels-belle-co-99483-402028.jpg);
     background-size: cover;
     background-position: 0;
     padding: 20px;
@@ -377,4 +377,7 @@ footer{
     margin-left: 70px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
